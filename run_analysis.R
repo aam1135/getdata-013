@@ -24,10 +24,10 @@ tidy_variables <- function(var) {
   var
 }
 
-# Set working directory
-setwd("/Users/abdullah.masud/mooc/coursera/getting_and_cleaning_data/getdata-013")
+# Set working directory, commented out for Coursera submittal
+# setwd("/Users/abdullah.masud/mooc/coursera/getting_and_cleaning_data/getdata-013")
 
-# Load library
+# Load library.  Perform install.packages("dplyr") if not already installed
 library(dplyr)
 
 # Read feature names
